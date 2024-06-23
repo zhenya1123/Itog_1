@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" modified="2024-06-23T16:56:56.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TGT69qYAYMA5LTAU3O6M" version="24.6.2" type="device">
+  <diagram name="Страница — 1" id="eM7O15dwufhdeK20XSbd">
+    <mxGraphModel dx="1359" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d_HOFD4dkejC43OEM_mi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-1" target="d_HOFD4dkejC43OEM_mi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-2" value="Finish" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="629" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-3" target="d_HOFD4dkejC43OEM_mi-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-3" value="startArray[]" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.508;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-4" target="d_HOFD4dkejC43OEM_mi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-4" value="print&amp;nbsp;&lt;div&gt;resultArray[]&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="629" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-10" target="d_HOFD4dkejC43OEM_mi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-15" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d_HOFD4dkejC43OEM_mi-14">
+          <mxGeometry x="-0.4163" y="1" relative="1" as="geometry">
+            <mxPoint x="-6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-10" target="d_HOFD4dkejC43OEM_mi-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-17" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d_HOFD4dkejC43OEM_mi-16">
+          <mxGeometry x="-0.1782" y="-1" relative="1" as="geometry">
+            <mxPoint x="-13" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-10" value="i &amp;lt; startArray.Length" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="200" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-13" target="d_HOFD4dkejC43OEM_mi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-22" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d_HOFD4dkejC43OEM_mi-21">
+          <mxGeometry x="-0.1611" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-13" target="d_HOFD4dkejC43OEM_mi-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-26" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d_HOFD4dkejC43OEM_mi-25">
+          <mxGeometry x="0.2482" y="-3" relative="1" as="geometry">
+            <mxPoint x="3" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-13" value="startArray[i].Length &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="280" width="182.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-19" target="d_HOFD4dkejC43OEM_mi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-19" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="290" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-23" target="d_HOFD4dkejC43OEM_mi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-23" value="resultArray[countOfShortElements] = startArray[i]&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;countOfShortElements = countOfShortElements + 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101.82" y="390" width="236.87" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-28" target="d_HOFD4dkejC43OEM_mi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-28" value="resultArray[] = startArray[]&lt;div&gt;&lt;div&gt;i = 0&lt;/div&gt;&lt;div&gt;countOfShortElements = 0&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="359" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-30" target="d_HOFD4dkejC43OEM_mi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-30" value="Array.Resize(ref resultArray, countOfShortElements)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="290" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-40" value="Вводим начальный массив строк" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="199" y="55" width="122.82" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-41" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-40" target="d_HOFD4dkejC43OEM_mi-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="310" as="sourcePoint" />
+            <mxPoint x="349" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-42" value="Создаем новый массив, по длине равный начальному.&lt;div&gt;Добавляем два счетчика:&lt;div&gt;первый идет по элементам начального массива, второй - только по элементам, длина которых не превышает три символа&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="559" y="50" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-42" target="d_HOFD4dkejC43OEM_mi-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="310" as="sourcePoint" />
+            <mxPoint x="349" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-44" value="Проходим полностью по первому массиву" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="169" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-44" target="d_HOFD4dkejC43OEM_mi-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="310" as="sourcePoint" />
+            <mxPoint x="349" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-46" value="Если длина i-го элемента начального массива не превышает три символа, то заменяем этим элементом элемент второго массива под номером&amp;nbsp; countOfShortElements" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="9" y="120" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-46" target="d_HOFD4dkejC43OEM_mi-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299" y="310" as="sourcePoint" />
+            <mxPoint x="349" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-48" value="После того как второй массив был скорректирован с учетом заданного условия, возникает необходимость скорректировать его длину, которая равна countOfShortElements" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="469" y="370" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-30" target="d_HOFD4dkejC43OEM_mi-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="769" y="310" as="sourcePoint" />
+            <mxPoint x="819" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-50" value="Вывод полученного массива" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFF33;" vertex="1" parent="1">
+          <mxGeometry x="739" y="377.5" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d_HOFD4dkejC43OEM_mi-51" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="d_HOFD4dkejC43OEM_mi-4" target="d_HOFD4dkejC43OEM_mi-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="729" y="390" as="sourcePoint" />
+            <mxPoint x="819" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,14 @@
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\bin\Debug\net7.0\Itog_1.exe
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\bin\Debug\net7.0\Itog_1.deps.json
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\bin\Debug\net7.0\Itog_1.runtimeconfig.json
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\bin\Debug\net7.0\Itog_1.dll
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\bin\Debug\net7.0\Itog_1.pdb
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\Itog_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\Itog_1.AssemblyInfoInputs.cache
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\Itog_1.AssemblyInfo.cs
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\Itog_1.csproj.CoreCompileInputs.cache
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\Itog_1.dll
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\refint\Itog_1.dll
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\Itog_1.pdb
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\Itog_1.genruntimeconfig.cache
+C:\Users\Conservator\Desktop\GeekBrains\Itog_1\obj\Debug\net7.0\ref\Itog_1.dll

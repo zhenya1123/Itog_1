@@ -24,13 +24,13 @@ string[] GetNewArray(string[] startArray) // делаем новый масси�
 	int countOfShortElements = 0; // вводим счетчик элементов, длина которых не больше трех символов
 	
 	for (int i = 0; i < startArray.Length; i++)
-	    {
+	{
 	    if(startArray[i].Length <= 3)
 	    {
 	    	resultArray[countOfShortElements] = startArray[i];
 	    	countOfShortElements++;
 	    }
-	    }
+	}
 	Array.Resize(ref resultArray, countOfShortElements); // корректируем длину нового массива, обрубая его конец
 	
 	return resultArray;
@@ -54,12 +54,12 @@ void PrintArray(string[] array) // функция вывода массива
 }
 
 Console.WriteLine("Введите массив строк, разделяя элементы массива точкой с запятой: "); // ввод массива через консоль
-string inStringSimvol = Console.ReadLine(); // считываем введенную строку
-string[] arraySimvol = GetStringArrayFromConsoleString(inStringSimvol); // 
+string str = Console.ReadLine(); // считываем введенную строку
+string[] arrayOfStr = GetStringArrayFromConsoleString(str);
 
 Console.WriteLine("Введенный массив строк: "); // отображение полученного массива
-PrintArray(GetStringArrayFromConsoleString(inStringSimvol));
+PrintArray(GetStringArrayFromConsoleString(str));
 Console.WriteLine();
 
 Console.WriteLine("Новый массив, состоящий из элементов с длиной менее трех символов: "); // вывод нового массива с учетом заданного условия
-PrintArray(GetNewArray(arraySimvol));
+PrintArray(GetNewArray(arrayOfStr));

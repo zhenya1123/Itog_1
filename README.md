@@ -66,7 +66,7 @@ void PrintArray(string[] array) // функция вывода массива
 ```sh
 Console.WriteLine("Введите массив строк, разделяя элементы массива точкой с запятой: "); // ввод массива через консоль
 string inStringSimvol = Console.ReadLine(); // считываем введенную строку
-string[] arraySimvol = GetStringArrayFromConsoleString(inStringSimvol); // 
+string[] arraySimvol = GetStringArrayFromConsoleString(inStringSimvol);
 
 Console.WriteLine("Введенный массив строк: "); // отображение полученного массива
 PrintArray(GetStringArrayFromConsoleString(inStringSimvol));
